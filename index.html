@@ -43,7 +43,7 @@
 
     <section class="hero">
         <div class="hero-img">
-            <img src="img/hero1.png" alt="">
+            <img src="img/hero1.png" alt="" class="one">
         </div>
         <div class="hero-text">
             <h1>Nike Air <br> Dunk-270</h1>
@@ -58,18 +58,24 @@
 
     <div class="content">
         <div class="box">
-            <li><img src="img/p1.png" alt=""></li>
+            <li><img src="img/p1.png" alt="" onclick="slider('img/hero1.png')"></li>
         </div>
 
         <div class="box">
-            <li><img src="img/p2.png" alt=""></li>
+            <li><img src="img/p2.png" alt="" onclick="slider('img/hero2.png')"></li>
         </div>
 
         <div class="box">
-            <li><img src="img/p3.png" alt=""></li>
+            <li><img src="img/p3.png" alt="" onclick="slider('img/hero1.png')"></li>
         </div>
     </div>
     <a href="#" class="scroll"><i class="ri-scroll-to-bottom-line"></i></a>
+
+    <script>
+        function slider(anything){
+            document.querySelector('.one').src = anything;
+        }
+    </script>
 </body>
 
 </html>

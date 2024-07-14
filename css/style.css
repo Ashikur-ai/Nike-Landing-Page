@@ -211,3 +211,23 @@ section{
     transform: translateY(-7px);
     background: var(--text-color);
 }
+
+.scroll{
+    position: absolute;
+    bottom: 70px;
+    right: 9%;
+}
+
+.scroll i{
+    font-size: 20px;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    padding: 18px;
+    border-radius: 2rem;
+    transition: all .5s ease;
+}
+
+.scroll i:hover{
+    background: var(--text-color);
+    color: var(--bg-color);
+}
