@@ -206,3 +206,8 @@ section{
     border: 1px solid var(--main-color);
     cursor: pointer;
 }
+
+.box:hover{
+    transform: translateY(-7px);
+    background: var(--text-color);
+}
